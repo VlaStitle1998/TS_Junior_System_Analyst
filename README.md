@@ -99,25 +99,25 @@ curl -X GET \ -H 'Host: marketplace.example.com' \ -H 'User-Agent: curl/8.18.0' 
    { <br>
       "id": 1, <br>
       "name": "METRO", <br>
-      "address": "71G Leningradskoye Highway, Moscow", <br>
+      "delivery": "сегодня 21:00-23:00", <br>
       "website": "https://metro-cc.ru/" <br>
     }, <br>
     { <br>
       "id": 2, <br>
       "name": "Auchan", <br> 
-      "address": "Khodynsky Boulevard, 4, floor 1, Moscow", <br>
+      "delivery": "сегодня 18:00-20:00", <br>
       "website": "https://www.auchan.ru/ <br>
     }, <br>
     { <br>
       "id": 3, <br> 
       "name": "Vkusvill", <br>
-      "address": "8k2 Dobrolyubova St., Moscow", <br>
+      "delivery": "от 20 до 60 минут", <br>
       "website": "https://vkusvill.ru/ <br>
     }, <br>
     { <br>
       "id": 4, <br>
       "name": "Victoria", <br> 
-      "address": "Kaliningrad, Kalinina sq., 28", <br>
+      "delivery": "сегодня 17:00-19:00", <br>
       "website": "https://www.victoria-group.ru/ <br>
     } <br>
   ] <br>
