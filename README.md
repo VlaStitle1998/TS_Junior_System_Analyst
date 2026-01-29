@@ -79,6 +79,51 @@
 
 ## Решение: 
 
+### Часть первая: Пример REST API запроса
+
+#### 1 вариант отображения
+
+GET /api/v1/stores/HTTPS/1.1 <br>
+Host: marketplace.example.com <br>
+User-Agent: curl/8.18.0 <br>
+Accept: application/json; indent=4 <br>
+
+#### 2 вариант отображения
+
+curl -X GET \ -H 'Host: marketplace.example.com' \ -H 'User-Agent: curl/8.18.0' \ -H 'Accept: application/json; indent=4' \ https://marketplace.example.com/api/v1/stores
+
+### Часть вторая: пример ответа REST API в формате json
+
+{
+  "stores": [ <br>
+   { <br>
+      "id": 1, <br>
+      "name": "METRO", <br>
+      "address": "71G Leningradskoye Highway, Moscow", <br>
+      "website": "https://metro-cc.ru/" <br>
+    }, <br>
+    { <br>
+      "id": 2, <br>
+      "name": "Auchan", <br> 
+      "address": "Khodynsky Boulevard, 4, floor 1, Moscow", <br>
+      "website": "https://www.auchan.ru/ <br>
+    }, <br>
+    { <br>
+      "id": 3, <br> 
+      "name": "Vkusvill", <br>
+      "address": "8k2 Dobrolyubova St., Moscow", <br>
+      "website": "https://vkusvill.ru/ <br>
+    }, <br>
+    { <br>
+      "id": 4, <br>
+      "name": "Victoria", <br> 
+      "address": "Kaliningrad, Kalinina sq., 28", <br>
+      "website": "https://www.victoria-group.ru/ <br>
+    } <br>
+  ] <br>
+} <br>
+
+
 # Задание 3: Архитектура
 
 ## Описание:
